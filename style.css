@@ -1,0 +1,138 @@
+body {
+  background-color: #E7E1DA;
+}
+
+#calculator{
+  width: 350px;
+  background: #BCAC9B;
+  padding: 15px;
+  border-radius: 10px;
+  margin: 0 auto;
+
+}
+
+.numbers {
+    display: inline-block;
+    padding: 10px;
+    font-size: 28px;
+    background: #C17C74;
+    border: 1px solid #ddd;
+    user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    font-family: sans-serif;
+    border-radius: 10px;
+
+}
+.num {
+  width: 60px;
+  height: 60px;
+  margin: 10px;
+  background: rgba(0, 0, 0, 0.15);
+  background-color: #DDC9B4;
+  color: #373F51;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  cursor: pointer;
+
+}
+.num:active {
+  background: #7A6C5D;
+  color: #ddd;
+}
+#calculator-body {
+  display: inline-flex;
+
+}
+.material-icons {
+
+}
+.material-icons-numpad {
+  font-size: 16px;
+   line-height:59px !important;
+   text-align: center;
+}
+
+.operators {
+  margin-left: 10px;
+  display: block;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 28px;
+  background: #DDC9B4;
+  border: 1px solid #ddd;
+  user-select: none;
+
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+
+}
+.op {
+  color: #2A3D45;
+  width: 30px;
+  height: 30px;
+  transform: translate(0, 100%);
+  cursor: pointer;
+  border-radius: 50%;
+  background: #C17C74;
+  padding: 10px;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.op:hover {
+  color: #C17C74;
+  background: #fff;
+}
+
+#solve {
+  text-align: center;
+  padding: 10px;
+  background: #2A3D45;
+  border-radius: 10px;
+  margin:10px 0px;
+  border: 1px solid #ddd;
+  color: #ddd;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+}
+#clear {
+  text-align: center;
+  background: #C17C74;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  color: #ddd;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+  width: 100%;
+  padding: 10px 0px;
+
+
+}
+
+.screen {
+  width: 93%;
+  padding: 10px 0px;
+  border-radius: 10px;
+  border: none;
+  margin: 10px 0px;
+  background: #ddd;
+  height: 20px;
+  color: #7A6C5D;
+  text-align: right;
+  padding-right: 20px;
+  font-size: 20px;
+  font-family: sans-serif;
+
+
+}

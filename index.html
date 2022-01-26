@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"  rel="stylesheet">
+  </head>
+  <body>
+    <div id="calculator">
+
+      <div type="text" class="screen" readonly></div>
+      <div id="calculator-body">
+      <div class="numbers"></div>
+      <div class="operators"></div>
+      </div>
+      <div onclick="solve()" id="solve">=</div>
+      <div onclick="clears()" id="clear" class="material-icons">delete_sweep</div>
+    </div>
+    <script src="app.js" charset="utf-8"></script>
+  </body>
+</html>
